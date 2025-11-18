@@ -64,14 +64,22 @@ function App() {
     <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-xl bg-white rounded-xl shadow-md p-8">
 
-        <h1 className="text-2xl font-semibold text-slate-900 mb-2">
-          Tobco Preischecker
-        </h1>
+        {/* Logo + Titel */}
+<div className="flex items-center gap-3 mb-2">
+  <img
+    src="/RZ-logo-wortbild-li-blau-gelb.png"
+    alt="Tobco Logo"
+    className="h-10 w-auto"
+  />
+  <h1 className="text-2xl font-semibold text-slate-900">
+    Tobco Preischecker
+  </h1>
+</div>
 
-        <p className="text-sm text-slate-600 mb-6">
-          EAN oder Produktname eingeben und direkt bei Galaxus, Toppreise, Brack
-          und Fust vergleichen.
-        </p>
+<p className="text-sm text-slate-600 mb-6">
+  EAN oder Produktname eingeben und direkt bei Galaxus, Toppreise, Brack
+  und Fust vergleichen.
+</p>
 
         <div className="space-y-4">
           <input
