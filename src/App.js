@@ -72,7 +72,7 @@ function App() {
     className="h-10 w-auto"
   />
   <h1 className="text-2xl font-semibold text-slate-900">
-    Tobco Preischecker
+    Preischecker
   </h1>
 </div>
 
