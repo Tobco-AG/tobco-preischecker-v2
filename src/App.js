@@ -7,17 +7,15 @@ function normalizeEAN(value) {
   return String(value)
     .trim()
     .replace(/[^\d]/g, "")   // alles, was keine Ziffer ist, entfernen
-    .replace(/\.0+$/, "")    // .0 am Ende entfernen (falls doch mal drin)
-    .replace(/^0+/, "");     // führende Nullen entfernen
+    .replace(/\.0+$/, "");   // .0 am Ende entfernen (falls doch mal drin)
+  // KEINE führenden Nullen mehr entfernen!
 }
 
 function findProductByEAN(ean) {
   const input = normalizeEAN(ean);
   if (!input) return null;
 
-  return (
-    products.find((p) => normalizeEAN(p.ean) === input) || null
-  );
+  return products.find((p) => normalizeEAN(p.ean) === input) || null;
 }
 
 function buildSearchUrl(base, ean, name) {
@@ -65,21 +63,21 @@ function App() {
       <div className="w-full max-w-xl bg-white rounded-xl shadow-md p-8">
 
         {/* Logo + Titel */}
-<div className="flex items-center gap-3 mb-2">
-  <img
-    src="/RZ-logo-wortbild-li-blau-gelb.png"
-    alt="Tobco Logo"
-    className="h-10 w-auto"
-  />
-  <h1 className="text-2xl font-semibold text-slate-900">
-    Preischecker
-  </h1>
-</div>
+        <div className="flex items-center gap-3 mb-2">
+          <img
+            src="/RZ-logo-wortbild-li-blau-gelb.png"
+            alt="Tobco Logo"
+            className="h-10 w-auto"
+          />
+          <h1 className="text-2xl font-semibold text-slate-900">
+            Preischecker
+          </h1>
+        </div>
 
-<p className="text-sm text-slate-600 mb-6">
-  EAN oder Produktname eingeben und direkt bei Galaxus, Toppreise, Brack
-  und Fust vergleichen.
-</p>
+        <p className="text-sm text-slate-600 mb-6">
+          EAN oder Produktname eingeben und direkt bei Galaxus, Toppreise, Brack
+          und Fust vergleichen.
+        </p>
 
         <div className="space-y-4">
           <input
@@ -101,6 +99,7 @@ function App() {
           {matchedProduct && (
             <div className="p-3 border rounded bg-slate-100 text-sm">
               <strong>{matchedProduct.name}</strong>
+              <div>Marke: {matchedProduct.brand}</div>
               <div>Tobco-Nr: {matchedProduct.artnr_tobco}</div>
               <div>Hersteller-Nr: {matchedProduct.artnr_hersteller}</div>
               <div>EAN: {matchedProduct.ean}</div>
