@@ -53,7 +53,7 @@ function App() {
 
   const searchFust = () => {
     window.open(
-      buildSearchUrl("https://www.fust.ch/de/search.html?query=", ean, productName),
+      buildSearchUrl("https://www.fust.ch/search?q=", ean, productName),
       "_blank"
     );
   };
