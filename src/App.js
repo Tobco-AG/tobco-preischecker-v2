@@ -3,8 +3,12 @@ import products from "./data/tobco-products.json";
 
 function normalizeEAN(value) {
   if (value == null) return "";
-  // alles in String verwandeln, Leerzeichen weg, ".0" am Ende entfernen
-  return String(value).trim().replace(/\.0+$/, "");
+
+  return String(value)
+    .trim()
+    .replace(/[^\d]/g, "")   // alles, was keine Ziffer ist, entfernen
+    .replace(/\.0+$/, "")    // .0 am Ende entfernen (falls doch mal drin)
+    .replace(/^0+/, "");     // führende Nullen entfernen
 }
 
 function findProductByEAN(ean) {
