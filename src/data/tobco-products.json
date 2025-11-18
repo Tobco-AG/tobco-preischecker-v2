@@ -410,63 +410,63 @@
     "ean": 24066070326.0,
     "artnr_hersteller": "Hoy600300",
     "uvp": "89.00",
-    "name": "49,0 HD Nano Mk II CIR-PL Filter"
+    "name": "49,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600301",
     "ean": 24066070333.0,
     "artnr_hersteller": "Hoy600301",
     "uvp": "99.00",
-    "name": "52,0 HD Nano Mk II CIR-PL Filter"
+    "name": "52,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600302",
     "ean": 24066070340.0,
     "artnr_hersteller": "Hoy600302",
     "uvp": "99.00",
-    "name": "55,0 HD Nano Mk II CIR-PL Filter"
+    "name": "55,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600303",
     "ean": 24066070357.0,
     "artnr_hersteller": "Hoy600303",
     "uvp": "99.00",
-    "name": "58,0 HD Nano Mk II CIR-PL Filter"
+    "name": "58,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600304",
     "ean": 24066070364.0,
     "artnr_hersteller": "Hoy600304",
     "uvp": "109.00",
-    "name": "62,0 HD Nano Mk II CIR-PL Filter"
+    "name": "62,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600305",
     "ean": 24066070371.0,
     "artnr_hersteller": "Hoy600305",
     "uvp": "119.00",
-    "name": "67,0 HD Nano Mk II CIR-PL Filter"
+    "name": "67,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600306",
     "ean": 24066070388.0,
     "artnr_hersteller": "Hoy600306",
     "uvp": "139.00",
-    "name": "72,0 HD Nano Mk II CIR-PL Filter"
+    "name": "72,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600307",
     "ean": 24066070395.0,
     "artnr_hersteller": "Hoy600307",
     "uvp": "149.00",
-    "name": "77,0 HD Nano Mk II CIR-PL Filter"
+    "name": "77,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600308",
     "ean": 24066070401.0,
     "artnr_hersteller": "Hoy600308",
     "uvp": "179.00",
-    "name": "82,0 HD Nano Mk II CIR-PL Filter"
+    "name": "82,0 HD nullo Mk II CIR-PL Filter"
   },
   {
     "artnr_tobco": "Hoy600318",
@@ -2431,7 +2431,7 @@
   {
     "artnr_tobco": "Hoy600577",
     "ean": 24066072276.0,
-    "artnr_hersteller": NaN,
+    "artnr_hersteller": null,
     "uvp": "89.00",
     "name": "72,0 Pro ND500 EX Filter"
   },
@@ -2888,63 +2888,63 @@
     "ean": 24066070234.0,
     "artnr_hersteller": "Hoy600309",
     "uvp": "69.00",
-    "name": "49,0 HD Nano Mk II UV Filter"
+    "name": "49,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600310",
     "ean": 24066070241.0,
     "artnr_hersteller": "Hoy600310",
     "uvp": "69.00",
-    "name": "52,0 HD Nano Mk II UV Filter"
+    "name": "52,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600311",
     "ean": 24066070258.0,
     "artnr_hersteller": "Hoy600311",
     "uvp": "79.00",
-    "name": "55,0 HD Nano Mk II UV Filter"
+    "name": "55,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600312",
     "ean": 24066070265.0,
     "artnr_hersteller": "Hoy600312",
     "uvp": "79.00",
-    "name": "58,0 HD Nano Mk II UV Filter"
+    "name": "58,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600313",
     "ean": 24066070272.0,
     "artnr_hersteller": "Hoy600313",
     "uvp": "89.00",
-    "name": "62,0 HD Nano Mk II UV Filter"
+    "name": "62,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600314",
     "ean": 24066070289.0,
     "artnr_hersteller": "Hoy600314",
     "uvp": "89.00",
-    "name": "67,0 HD Nano Mk II UV Filter"
+    "name": "67,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600315",
     "ean": 24066070296.0,
     "artnr_hersteller": "Hoy600315",
     "uvp": "99.00",
-    "name": "72,0 HD Nano Mk II UV Filter"
+    "name": "72,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600316",
     "ean": 24066070302.0,
     "artnr_hersteller": "Hoy600316",
     "uvp": "99.00",
-    "name": "77,0 HD Nano Mk II UV Filter"
+    "name": "77,0 HD nullo Mk II UV Filter"
   },
   {
     "artnr_tobco": "Hoy600317",
     "ean": 24066070319.0,
     "artnr_hersteller": "Hoy600317",
     "uvp": "119.00",
-    "name": "82,0 HD Nano Mk II UV  Filter"
+    "name": "82,0 HD nullo Mk II UV  Filter"
   },
   {
     "artnr_tobco": "Hoy600327",
@@ -5293,71 +5293,71 @@
   },
   {
     "artnr_tobco": "Ben270342",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "BDM6033",
     "uvp": "15.00",
     "name": "BDM6033 Gummifüsse (Stück)"
   },
   {
     "artnr_tobco": "Ben270352",
-    "ean": NaN,
-    "artnr_hersteller": NaN,
+    "ean": null,
+    "artnr_hersteller": null,
     "uvp": "20.00",
     "name": "BDM7664 Gummifüsse (3Stück)"
   },
   {
     "artnr_tobco": "Ben270350",
-    "ean": NaN,
-    "artnr_hersteller": NaN,
+    "ean": null,
+    "artnr_hersteller": null,
     "uvp": "20.00",
     "name": "BDM7683 Gummifüsse (3Stück)"
   },
   {
     "artnr_tobco": "Ben270353",
-    "ean": NaN,
-    "artnr_hersteller": NaN,
+    "ean": null,
+    "artnr_hersteller": null,
     "uvp": "20.00",
     "name": "BDM7706 Gummifüsse (3Stück)"
   },
   {
     "artnr_tobco": "Ben270354",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "BDM7790",
     "uvp": "20.00",
     "name": "Gummifüsse (3stk.) BDM7790"
   },
   {
     "artnr_tobco": "Ben270346",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "BGM0012",
     "uvp": "15.00",
     "name": "BGM0012 Gummifüsse (Stück)"
   },
   {
     "artnr_tobco": "Ben270340",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "BGM0013",
     "uvp": "15.00",
     "name": "BGM0013 Gummifüsse (Stück)"
   },
   {
     "artnr_tobco": "Ben270343",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "BGM0014",
     "uvp": "15.00",
     "name": "BGM0014 Gummifüsse (Stück)  (34mm)"
   },
   {
     "artnr_tobco": "Ben270344",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "BGM0032",
     "uvp": "15.00",
     "name": "BGM0032 Gummifüsse (Stück)"
   },
   {
     "artnr_tobco": "Ben270351",
-    "ean": NaN,
-    "artnr_hersteller": NaN,
+    "ean": null,
+    "artnr_hersteller": null,
     "uvp": "20.00",
     "name": "BGM0086 Gummifüsse (Stück)"
   },
@@ -6350,14 +6350,14 @@
   },
   {
     "artnr_tobco": "Opt650620",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "60272",
     "uvp": "159.00",
     "name": "S21 FE Digiscoping Adapter Samsung Galaxy S21 FE 5G"
   },
   {
     "artnr_tobco": "Opt650622",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "60256",
     "uvp": "159.00",
     "name": "A32 Digiscoping Adapter Samsung Galaxy A35 5G"
@@ -6483,14 +6483,14 @@
   },
   {
     "artnr_tobco": "Opt650629",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "60302",
     "uvp": "159.00",
     "name": "S23 Ultra Digiscoping Adapter Samsung Galaxy S23 Ultra"
   },
   {
     "artnr_tobco": "Opt650635",
-    "ean": NaN,
+    "ean": null,
     "artnr_hersteller": "60316",
     "uvp": "",
     "name": "S24 Ultra Digiscoping Adapter Samsung Galaxy S24 Ultra"
@@ -6806,7 +6806,7 @@
   {
     "artnr_tobco": "Adm600341",
     "ean": 7612006003416.0,
-    "artnr_hersteller": NaN,
+    "artnr_hersteller": null,
     "uvp": "769.00",
     "name": "10x42 DCF Bernina II ED"
   },
@@ -12114,14 +12114,14 @@
     "ean": 4008496881864.0,
     "artnr_hersteller": "43210570100",
     "uvp": "27.95",
-    "name": "NE3850 Hygiene Clipper Nano Series"
+    "name": "NE3850 Hygiene Clipper nullo Series"
   },
   {
     "artnr_tobco": "Rem432110",
     "ean": 4008496881963.0,
     "artnr_hersteller": "43211570100",
     "uvp": "39.95",
-    "name": "NE3870 Hygiene Clipper Nano Series Lithium"
+    "name": "NE3870 Hygiene Clipper nullo Series Lithium"
   },
   {
     "artnr_tobco": "Rem433180",
