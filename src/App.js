@@ -7,8 +7,8 @@ function normalizeEAN(value) {
   return String(value)
     .trim()
     .replace(/[^\d]/g, "")   // alles, was keine Ziffer ist, entfernen
-    .replace(/\.0+$/, "");   // .0 am Ende entfernen (falls doch mal drin)
-  // KEINE führenden Nullen mehr entfernen!
+    .replace(/\.0+$/, "");   // .0 am Ende entfernen
+  // KEINE führenden Nullen entfernen!
 }
 
 function findProductByEAN(ean) {
@@ -62,19 +62,20 @@ function App() {
     <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-xl bg-white rounded-xl shadow-md p-8">
 
-        {/* Logo + Titel */}
-        <div className="flex items-center gap-3 mb-2">
+        {/* Logo + Titel (vertikal untereinander) */}
+        <div className="flex flex-col items-center mb-6 text-center">
           <img
             src="/RZ-logo-wortbild-li-blau-gelb.png"
             alt="Tobco Logo"
-            className="h-10 w-auto"
+            className="h-12 w-auto mb-3"
           />
-          <h1 className="text-2xl font-semibold text-slate-900">
+
+          <h1 className="text-3xl font-semibold text-slate-900">
             Preischecker
           </h1>
         </div>
 
-        <p className="text-sm text-slate-600 mb-6">
+        <p className="text-sm text-slate-600 mb-6 text-center">
           EAN oder Produktname eingeben und direkt bei Galaxus, Toppreise, Brack
           und Fust vergleichen.
         </p>
