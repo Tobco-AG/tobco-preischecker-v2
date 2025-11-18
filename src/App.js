@@ -1,10 +1,19 @@
 import React, { useState, useMemo } from "react";
 import products from "./data/tobco-products.json";
 
+function normalizeEAN(value) {
+  if (value == null) return "";
+  // alles in String verwandeln, Leerzeichen weg, ".0" am Ende entfernen
+  return String(value).trim().replace(/\.0+$/, "");
+}
+
 function findProductByEAN(ean) {
-  if (!ean) return null;
-  const cleaned = ean.replace(/\s/g, "");
-  return products.find((p) => p.ean === cleaned) || null;
+  const input = normalizeEAN(ean);
+  if (!input) return null;
+
+  return (
+    products.find((p) => normalizeEAN(p.ean) === input) || null
+  );
 }
 
 function buildSearchUrl(base, ean, name) {
